@@ -12,15 +12,16 @@ const App: React.FC = () => {
 
   // Background pattern for the "Hyprland" desktop feel
   const backgroundStyle = {
-    backgroundImage: 'radial-gradient(circle at 1px 1px, #262626 1px, transparent 0)',
+    backgroundImage: 'radial-gradient(circle at 1px 1px, #3b0764 1px, transparent 0)',
     backgroundSize: '40px 40px',
   };
 
   return (
-    <div className="h-screen w-screen bg-black text-white flex flex-col font-mono relative overflow-hidden">
+    <div className="h-screen w-screen bg-[#050505] text-white flex flex-col font-mono relative overflow-hidden selection:bg-purple-500 selection:text-white">
       
       {/* Desktop Background Pattern */}
-      <div className="absolute inset-0 pointer-events-none opacity-20" style={backgroundStyle}></div>
+      <div className="absolute inset-0 pointer-events-none opacity-10" style={backgroundStyle}></div>
+      <div className="absolute inset-0 bg-gradient-to-tr from-purple-900/10 via-transparent to-black pointer-events-none"></div>
 
       {/* Top Bar (Waybar) */}
       <Waybar activeWorkspace={activeWorkspace} setActiveWorkspace={setActiveWorkspace} />
@@ -81,10 +82,6 @@ const App: React.FC = () => {
           )}
         </AnimatePresence>
       </main>
-
-      {/* Floating Action Button (Mobile Only context) - Not strictly needed for Hyprland vibe but good for UX if needed. 
-          Skipping to keep clean aesthetic. */}
-      
     </div>
   );
 };

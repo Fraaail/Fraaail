@@ -1,6 +1,7 @@
 import { Project, SystemStat } from './types';
 
 export const GITHUB_HANDLE = "@Fraaail";
+export const GITHUB_LINK = "https://github.com/Fraaail";
 
 export const PROJECTS: Project[] = [
   {
@@ -46,9 +47,15 @@ export const SKILL_STATS: SystemStat[] = [
 ];
 
 export const MOCK_TERMINAL_HISTORY = [
-  "arch-linux connection established...",
-  "loading kernel modules... done",
-  "mounting filesystems... done",
-  "starting hyprland... done",
-  "welcome back, user @fraaail"
+  "Initializing ZSH...",
+  "Loading plugins: git, zsh-autosuggestions, syntax-highlighting...",
+  "Theme: powerlevel10k (custom purple configuration)",
+  "System check: OK",
+  "Welcome back, @fraaail"
 ];
+
+export const FILES: Record<string, string> = {
+  "about.md": "# About Me\nI am a Full Stack Engineer obsessed with performance and design.\nI build things that look good and run fast.",
+  "skills.txt": "TypeScript, React, Rust, Go, Linux, Hyprland, Docker, Kubernetes",
+  "contact.json": "{\n  \"github\": \"@Fraaail\",\n  \"email\": \"contact@fraaail.dev\",\n  \"discord\": \"fraaail#0001\"\n}"
+};

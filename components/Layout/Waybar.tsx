@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Wifi, Volume2, Battery, Cpu, Clock, LayoutGrid } from 'lucide-react';
+import { Wifi, Volume2, Battery, Cpu, Clock, LayoutGrid, Terminal } from 'lucide-react';
 import { Workspace } from '../../types';
 
 interface WaybarProps {
@@ -24,24 +24,24 @@ export const Waybar: React.FC<WaybarProps> = ({ activeWorkspace, setActiveWorksp
   };
 
   return (
-    <div className="w-full h-10 bg-black/80 border-b border-neutral-800 flex items-center justify-between px-2 text-sm z-50 backdrop-blur-sm select-none">
+    <div className="w-full h-10 bg-black/90 border-b border-purple-900/30 flex items-center justify-between px-3 text-sm z-50 backdrop-blur-md select-none">
       
       {/* Left: Workspaces */}
-      <div className="flex items-center gap-2">
-        <div className="bg-neutral-900 px-3 py-1 text-neutral-400 flex items-center gap-2 rounded-sm border border-neutral-800">
+      <div className="flex items-center gap-3">
+        <div className="bg-[#1a0b2e] px-3 py-1 text-purple-400 flex items-center gap-2 rounded-md border border-purple-900/50">
            <LayoutGrid size={14} />
         </div>
         
-        <div className="flex gap-1 bg-neutral-900 p-1 rounded-sm border border-neutral-800">
+        <div className="flex gap-1 bg-black p-1 rounded-md border border-neutral-800">
           {[Workspace.HOME, Workspace.PROJECTS, Workspace.STATS, Workspace.CHAT].map((ws) => (
             <button
               key={ws}
               onClick={() => setActiveWorkspace(ws)}
               className={`
-                w-6 h-6 flex items-center justify-center rounded-sm text-xs font-bold transition-all
+                w-7 h-6 flex items-center justify-center rounded text-xs font-bold transition-all
                 ${activeWorkspace === ws 
-                  ? 'bg-white text-black shadow-[0_0_10px_rgba(255,255,255,0.3)]' 
-                  : 'text-neutral-500 hover:bg-neutral-800 hover:text-white'}
+                  ? 'bg-purple-600 text-white shadow-[0_0_10px_rgba(168,85,247,0.4)]' 
+                  : 'text-neutral-500 hover:bg-neutral-900 hover:text-purple-300'}
               `}
             >
               {ws}
@@ -50,35 +50,36 @@ export const Waybar: React.FC<WaybarProps> = ({ activeWorkspace, setActiveWorksp
         </div>
       </div>
 
-      {/* Center: Window Title (Simulated) */}
-      <div className="hidden md:flex items-center text-neutral-500 font-medium">
+      {/* Center: Window Title */}
+      <div className="hidden md:flex items-center text-neutral-500 font-mono text-xs tracking-wider">
+         <span className="text-purple-500 mr-2">➜</span>
          ~/fraaail/{activeWorkspace === Workspace.HOME ? 'home' : activeWorkspace === Workspace.PROJECTS ? 'projects' : activeWorkspace === Workspace.STATS ? 'system-monitor' : 'ai-chat'}
       </div>
 
       {/* Right: Modules */}
-      <div className="flex items-center gap-2">
-        <div className="flex items-center gap-3 bg-neutral-900 px-3 py-1 rounded-sm border border-neutral-800 text-neutral-300">
-           <div className="flex items-center gap-1">
-              <Cpu size={14} />
-              <span className="text-xs">12%</span>
+      <div className="flex items-center gap-3">
+        <div className="hidden md:flex items-center gap-4 bg-[#1a0b2e] px-4 py-1 rounded-md border border-purple-900/50 text-purple-200">
+           <div className="flex items-center gap-2">
+              <Cpu size={14} className="text-purple-400" />
+              <span className="text-xs font-mono">12%</span>
            </div>
-           <div className="flex items-center gap-1">
-              <Volume2 size={14} />
-              <span className="text-xs">65%</span>
+           <div className="flex items-center gap-2">
+              <Volume2 size={14} className="text-purple-400" />
+              <span className="text-xs font-mono">65%</span>
            </div>
-           <div className="flex items-center gap-1">
-              <Battery size={14} />
-              <span className="text-xs">98%</span>
+           <div className="flex items-center gap-2">
+              <Battery size={14} className="text-purple-400" />
+              <span className="text-xs font-mono">98%</span>
            </div>
-           <div className="flex items-center gap-1">
-              <Wifi size={14} />
-              <span className="text-xs">WLAN</span>
+           <div className="flex items-center gap-2">
+              <Wifi size={14} className="text-purple-400" />
+              <span className="text-xs font-mono">WLAN</span>
            </div>
         </div>
 
-        <div className="bg-white text-black px-3 py-1 rounded-sm font-bold flex items-center gap-2 border border-white">
+        <div className="bg-purple-600 text-white px-3 py-1 rounded-md font-bold flex items-center gap-2 shadow-lg shadow-purple-900/20">
           <Clock size={14} />
-          <span>{formatDate(time)} {formatTime(time)}</span>
+          <span className="text-xs font-mono">{formatDate(time)} {formatTime(time)}</span>
         </div>
       </div>
     </div>
