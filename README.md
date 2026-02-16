@@ -461,7 +461,7 @@
 
 <br>
 
-<div align="center">
+<!-- <div align="center">
   <table>
     <tr>
       <td align="center" width="150">
@@ -504,7 +504,7 @@
       </td>
     </tr>
   </table>
-</div>
+</div> -->
 
 </details>
 
