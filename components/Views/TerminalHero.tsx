@@ -117,8 +117,8 @@ export const TerminalHero: React.FC = () => {
           
           <div className="space-y-4 text-neutral-300 border-l-4 border-purple-500 pl-6 py-2">
             <p className="leading-relaxed">
-              Full Stack Engineer specializing in React, Rust, and Tiling Window Managers.
-              I craft high-performance web applications with a focus on aesthetics and keyboard-driven workflows.
+              Full Stack Computer Science Student specializing in Python, Laravel, and OS Management.
+              I create high-performance applications that helps local clients and businesses.
             </p>
           </div>
 
