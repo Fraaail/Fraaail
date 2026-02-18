@@ -13,12 +13,12 @@
 
 <p align="center">
   <a href="https://github.com/Fraaail"><img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width="40" height="40" /></a>
-  <a href="https://www.kaggle.com/Fraaail"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kaggle/kaggle-original.svg" alt="Kaggle" width="40" height="40"/></a>
-  <a href="https://huggingface.co/iZELX1"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace" width="40" height="40"/></a>
+  <a href="https://www.kaggle.com/fraaail"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kaggle/kaggle-original.svg" alt="Kaggle" width="40" height="40"/></a>
+  <a href="https://huggingface.co/Fraaail"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HuggingFace" width="40" height="40"/></a>
 </p>
 
 <div align="center">
-  <a href="https://Fraaail.vercel.app">
+  <a href="https://fraaail.vercel.app">
     <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_My_Site-000000?style=for-the-badge&logo=vercel&labelColor=000000&color=00C7B7" alt="Portfolio Deployed on Vercel">
   </a>
 </div>
