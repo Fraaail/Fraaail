@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { MOCK_TERMINAL_HISTORY, GITHUB_HANDLE, GITHUB_LINK, FILES } from '../../constants';
+import { MOCK_TERMINAL_HISTORY, GITHUB_HANDLE, GITHUB_LINK, FILES, LINKEDIN_LINK } from '../../constants';
 import { WindowFrame } from '../Layout/WindowFrame';
 import { Terminal as TerminalIcon, Github, Mail, Linkedin, Globe } from 'lucide-react';
 
@@ -111,14 +111,14 @@ export const TerminalHero: React.FC = () => {
               FRAA<span className="text-purple-500">AIL</span>
             </h1>
             <p className="text-neutral-400 text-lg md:text-xl font-light">
-              Designing interfaces that <span className="text-white italic">feel</span> like magic.
+              Designing interfaces that <span className="text-white italic">feels</span> like magic.
             </p>
           </div>
           
           <div className="space-y-4 text-neutral-300 border-l-4 border-purple-500 pl-6 py-2">
             <p className="leading-relaxed">
-              Full Stack Computer Science Student specializing in Python, Laravel, and OS Management.
-              I create high-performance applications that helps local clients and businesses.
+              A Computer Science Student specializing in Python, Laravel, and OS Management.
+              I create applications that helps local clients, businesses and for personal projects.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export const TerminalHero: React.FC = () => {
               <Github size={20} />
               <span>GitHub</span>
             </a>
-             <a href="#" className="flex items-center gap-2 px-6 py-3 border border-neutral-700 hover:border-purple-500 hover:text-purple-400 transition-colors rounded text-neutral-300">
+             <a href={LINKEDIN_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 border border-neutral-700 hover:border-purple-500 hover:text-purple-400 transition-colors rounded text-neutral-300">
               <Linkedin size={20} />
               <span>LinkedIn</span>
             </a>

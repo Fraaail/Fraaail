@@ -2,6 +2,7 @@ import { Project, SystemStat } from './types';
 
 export const GITHUB_HANDLE = "@Fraaail";
 export const GITHUB_LINK = "https://github.com/Fraaail";
+export const LINKEDIN_LINK = "https://ph.linkedin.com/in/keayon-ivan-romero-59571418a";
 
 export const PROJECTS: Project[] = [
   {
