@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: '2',
-    name: 'SPLWD: Student Profiling for Learners with Disabilities System Upgrade',
+    name: 'SPLWD',
     description: 'SPLWD: Student Profiling for Learners with Disabilities in Sta. Cruz District of Laguna.',
     techStack: ['PHP', 'MySQL', 'CSS'],
     link: 'https://github.com/Fraaail/SPLWD',
