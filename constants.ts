@@ -8,11 +8,35 @@ export const PROJECTS: Project[] = [
   {
     id: '1',
     name: 'Dace-Website',
-    description: 'A responsive single-page website for Dace\'s Samgyeopsal, implemented with React, Vite, and TypeScript. The site includes a responsive navigation bar, menu listing, location/contact section, and testimonials.',
+    description: 'A responsive single-page website for Dace\'s Samgyeopsal, implemented with React, Vite, and TypeScript.',
     techStack: ['React', 'Vite', 'TypeScript'],
     link: 'https://github.com/Fraaail/Dace-Website',
     stars: 0
-  }
+  },
+  {
+    id: '2',
+    name: 'SPLWD: Student Profiling for Learners with Disabilities System Upgrade',
+    description: 'SPLWD: Student Profiling for Learners with Disabilities in Sta. Cruz District of Laguna.',
+    techStack: ['PHP', 'MySQL', 'CSS'],
+    link: 'https://github.com/Fraaail/SPLWD',
+    stars: 0
+  },
+  {
+    id: '3',
+    name: 'CCS Student Achievements Portfolio',
+    description: 'A Windows Forms (.NET Framework 4.8) application for tracking CCS students and their achievements.',
+    techStack: ['C#', '.NET Framework 4.8'],
+    link: 'https://github.com/Fraaail/CCS-Student-Achievements-Portfolio',
+    stars: 0
+  },
+  {
+    id: '4',
+    name: 'DogCat Information System',
+    description: 'A simple Tkinter GUI for browsing short, consistent information about dog and cat breeds.',
+    techStack: ['Python', 'Tkinter'],
+    link: 'https://github.com/Fraaail/DogCat-Information-System',
+    stars: 0
+  },
 ];
 
 export const SKILL_STATS: SystemStat[] = [
