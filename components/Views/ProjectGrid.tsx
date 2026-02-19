@@ -28,7 +28,7 @@ export const ProjectGrid: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="h-64"
+            className="h-80"
           >
             <WindowFrame title={project.name} className="group hover:border-purple-500/50 transition-colors">
               <div className="p-6 flex flex-col h-full justify-between bg-neutral-900/20 group-hover:bg-purple-900/10 transition-colors">
@@ -74,7 +74,7 @@ export const ProjectGrid: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="h-64 border border-dashed border-neutral-800 rounded-lg flex items-center justify-center text-neutral-600 hover:border-purple-500/50 hover:text-purple-400 transition-all cursor-not-allowed bg-black/20"
+            className="h-80 border border-dashed border-neutral-800 rounded-lg flex items-center justify-center text-neutral-600 hover:border-purple-500/50 hover:text-purple-400 transition-all cursor-not-allowed bg-black/20"
         >
             <div className="text-center">
                 <div className="text-4xl mb-2 font-thin text-purple-900">+</div>
