@@ -57,7 +57,7 @@
   <a href="#-my-recent-activity"><img src="https://img.shields.io/badge/Activity-00C7B7?style=flat-square" alt="Activity"/></a>
 </p>
 
-<details>
+<!-- <details>
 <summary align="center"><b>Full Table of Contents</b></summary>
 
 - [Tech Stack & Tools](#-tech-stack--tools)
@@ -74,7 +74,7 @@
 - [Badges](#-badges)
 - [Recent Activity](#-my-recent-activity)
 
-</details>
+</details> -->
 
 <br>
 
@@ -92,7 +92,7 @@
 <h3 align="center">Programming Languages</h3>
 <div align="center">
 
-<table>
+<!-- <table>
 <tr>
 <td><a href="https://www.python.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a></td>
 <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/></a></td>
@@ -136,14 +136,14 @@
 <td><a href="https://nim-lang.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nim/nim-original.svg" alt="Nim" width="40" height="40"/></a></td>
 <td><a href="https://elm-lang.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elm/elm-original.svg" alt="Elm" width="40" height="40"/></a></td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
 <h3 align="center">Frameworks and Libraries</h3>
 <div align="center">
 
-<table>
+<!-- <table>
 <tr>
 <td><a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="40" height="40"/></a></td>
 <td><a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="40" height="40"/></a></td>
@@ -171,14 +171,14 @@
 <tr>
 <td><a href="https://flutter.dev/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" width="40" height="40"/></a></td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
 <h3 align="center">Databases and Cloud Hosting</h3>
 <div align="center">
 
-<table>
+<!-- <table>
 <tr>
 <td><a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/></a></td>
 <td><a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/></a></td>
@@ -198,14 +198,14 @@
 <td><a href="https://www.elastic.co/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original.svg" alt="Elasticsearch" width="40" height="40"/></a></td>
 <td><a href="https://neo4j.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-original.svg" alt="Neo4j" width="40" height="40"/></a></td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
 <h3 align="center">Software and Tools</h3>
 <div align="center">
 
-<table>
+<!-- <table>
 <tr>
 <td><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40"/></a></td>
 <td><a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/></a></td>
@@ -237,14 +237,14 @@
 <td><a href="https://atom.io/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/atom/atom-original.svg" alt="Atom" width="40" height="40"/></a></td>
 <td><a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/emacs/emacs-original.svg" alt="Emacs" width="40" height="40"/></a></td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
 <h3 align="center">DevOps Tools</h3>
 <div align="center">
 
-<table>
+<!-- <table>
 <tr>
 <td><a href="https://www.jenkins.io/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="40" height="40"/></a></td>
 <td><a href="https://www.ansible.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg" alt="Ansible" width="40" height="40"/></a></td>
@@ -257,15 +257,15 @@
 <td><a href="https://travis-ci.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/travis/travis-original.svg" alt="Travis CI" width="40" height="40"/></a></td>
 <td><a href="https://bitbucket.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg" alt="Bitbucket" width="40" height="40"/></a></td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
 
 <h3 align="center">Linux Distributions</h3>
 <div align="center">
-<table>
 
+<!-- <table>
 <tr>
 </tr>
 <tr>
@@ -312,14 +312,15 @@
 <td><a href="https://www.truenas.com/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/truenas/0094f5" width="40"/></a></td>
 <td><a href="https://alpinelinux.org/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/alpinelinux/0071f3" width="40"/></a></td>
 </tr>
+</table> -->
 
-</table>
 </div>
 
 
 <h3 align="center">Other Operating Systems</h3>
 <div align="center">
-<table>
+
+<!-- <table>
 <tr>
 <td><a href="https://www.microsoft.com/windows/windows-11" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows11/windows11-original.svg" width="40"/></a></td>
 <td><a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/apple/ffffff" alt="Apple" width="40" /></a></td>
@@ -328,14 +329,15 @@
 <td><a href="https://chromeos.google/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-original.svg" width="40"/></a></td>
 <td><a href="https://firefoxosdevices.org/en/#type:all|coming-devices:yes" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firefox/firefox-original.svg" width="40"/></a></td>
 </tr>
-</table>
+</table> -->
+
 </div>
 
 
 <h3 align="center">Linux and Homelab Tools</h3>
 <div align="center">
-<table>
 
+<!-- <table>
 <tr>
 <td><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="40"/></a></td>
 <td><a href="https://www.vim.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vim/vim-original.svg" width="40"/></a></td>
@@ -374,8 +376,8 @@
 <td><a href="https://www.elastic.co/logstash" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/logstash/005571" width="40"/></a></td>
 <td><a href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/splunk/ffffff" width="40"/></a></td>
 </tr>
+</table> -->
 
-</table>
 </div>
 
 
@@ -385,7 +387,7 @@
 <h3 align="center">Virtualization Tools</h3>
 <div align="center">
 
-<table>
+<!-- <table>
 <tr>
 <td><a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/></a></td>
 <td><a href="https://kubernetes.io/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" alt="Kubernetes" width="40" height="40"/></a></td>
@@ -393,7 +395,7 @@
 <td><a href="https://www.vmware.com/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/vmware/607078" alt="VMware" width="40" height="40"/></a></td>
 <td><a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/virtualbox/183a61" alt="VirtualBox" width="40" height="40"/></a></td>
 </tr>
-</table>
+</table> -->
 
 </div>
 
