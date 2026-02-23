@@ -57,6 +57,6 @@ export const MOCK_TERMINAL_HISTORY = [
 
 export const FILES: Record<string, string> = {
   "about.md": "# About Me\nI am a Computer Science Student obsessed with performance and design.\nI build things that look good and run fast.",
-  "skills.txt": "Python, Laravel, Go, Windows, Linux, Hyprland, Docker, Kubernetes",
+  "skills.txt": "Python, Laravel, Go, Windows, Linux, Hyprland, Docker, UI/UX Design",
   "contact.json": "{\n  \"github\": \"@Fraaail\",\n  \"email\": \"yonkeaako@gmail.com\",\n  \"discord\": \"thero_shan\"\n}"
 };
