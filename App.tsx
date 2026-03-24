@@ -1,30 +1,38 @@
-import React, { useState } from 'react';
-import { Workspace } from './types';
-import { Waybar } from './components/Layout/Waybar';
-import { TerminalHero } from './components/Views/TerminalHero';
-import { ProjectGrid } from './components/Views/ProjectGrid';
-import { StatsView } from './components/Views/StatsView';
-import { AiChat } from './components/Views/AiChat';
-import { AnimatePresence, motion } from 'framer-motion';
+import React, { useState } from "react";
+import { Workspace } from "./types";
+import { Waybar } from "./components/Layout/Waybar";
+import { TerminalHero } from "./components/Views/TerminalHero";
+import { ProjectGrid } from "./components/Views/ProjectGrid";
+import { StatsView } from "./components/Views/StatsView";
+import { AiChat } from "./components/Views/AiChat";
+import { AnimatePresence, motion } from "framer-motion";
 
 const App: React.FC = () => {
-  const [activeWorkspace, setActiveWorkspace] = useState<Workspace>(Workspace.HOME);
+  const [activeWorkspace, setActiveWorkspace] = useState<Workspace>(
+    Workspace.HOME,
+  );
 
   // Background pattern for the "Hyprland" desktop feel
   const backgroundStyle = {
-    backgroundImage: 'radial-gradient(circle at 1px 1px, #3b0764 1px, transparent 0)',
-    backgroundSize: '40px 40px',
+    backgroundImage:
+      "radial-gradient(circle at 1px 1px, #3b0764 1px, transparent 0)",
+    backgroundSize: "40px 40px",
   };
 
   return (
     <div className="h-screen w-screen bg-[#050505] text-white flex flex-col font-mono relative overflow-hidden selection:bg-purple-500 selection:text-white">
-      
       {/* Desktop Background Pattern */}
-      <div className="absolute inset-0 pointer-events-none opacity-10" style={backgroundStyle}></div>
+      <div
+        className="absolute inset-0 pointer-events-none opacity-10"
+        style={backgroundStyle}
+      ></div>
       <div className="absolute inset-0 bg-gradient-to-tr from-purple-900/10 via-transparent to-black pointer-events-none"></div>
 
       {/* Top Bar (Waybar) */}
-      <Waybar activeWorkspace={activeWorkspace} setActiveWorkspace={setActiveWorkspace} />
+      <Waybar
+        activeWorkspace={activeWorkspace}
+        setActiveWorkspace={setActiveWorkspace}
+      />
 
       {/* Main Workspace Area */}
       <main className="flex-1 relative overflow-hidden p-2 md:p-4 z-10">
@@ -35,7 +43,7 @@ const App: React.FC = () => {
               className="h-full w-full"
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 1.02, filter: 'blur(10px)' }}
+              exit={{ opacity: 0, scale: 1.02, filter: "blur(10px)" }}
               transition={{ duration: 0.2 }}
             >
               <TerminalHero />

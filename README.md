@@ -261,7 +261,6 @@
 
 </div>
 
-
 <h3 align="center">Linux Distributions</h3>
 <div align="center">
 
@@ -316,7 +315,6 @@
 
 </div>
 
-
 <h3 align="center">Other Operating Systems</h3>
 <div align="center">
 
@@ -332,7 +330,6 @@
 </table> -->
 
 </div>
-
 
 <h3 align="center">Linux and Homelab Tools</h3>
 <div align="center">
@@ -379,8 +376,6 @@
 </table> -->
 
 </div>
-
-
 
 </div>
 
@@ -447,7 +442,6 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Fraaail&theme=radical" alt="Repos per Language" height="180"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Fraaail&theme=radical" alt="Productive Time" height="180"/>
 </div>
-
 
 <br>
 
@@ -524,7 +518,7 @@
 </p>
 
 <div align="center">
-  
+
   <table>
     <tr>
       <td align="center">
@@ -536,15 +530,19 @@ Building quietly.
       </td>
     </tr>
   </table>
-  
+
   <br>
-  
-  <sub><em>
-    <!--RECENT_ACTIVITY:last_update-->
+
+<sub><em>
+
+<!--RECENT_ACTIVITY:last_update-->
+
 Last Updated: Sunday, February 15, 2026 at 11:21:27 PM
+
 <!--RECENT_ACTIVITY:last_update_end-->
-  </em></sub>
-  
+
+</em></sub>
+
 </div>
 
 <!-- <p align="center">

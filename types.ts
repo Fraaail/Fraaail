@@ -2,7 +2,7 @@ export enum Workspace {
   HOME = 1,
   PROJECTS = 2,
   STATS = 3,
-  CHAT = 4
+  CHAT = 4,
 }
 
 export interface Project {
@@ -22,7 +22,7 @@ export interface SystemStat {
 }
 
 export interface ChatMessage {
-  role: 'user' | 'model';
+  role: "user" | "model";
   text: string;
   timestamp: number;
 }
