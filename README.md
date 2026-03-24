@@ -412,10 +412,10 @@
   <i>Statistics overview</i>
 </p>
 
-<!-- <div align="center">
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Fraaail&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=f093fb&text_color=ffffff" alt="GitHub Stats" height="180"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fraaail&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=ffffff" alt="Top Languages" height="180"/>
-</div> -->
+</div>
 
 <br>
 
